@@ -1,1 +1,3 @@
-outputs/
+data/data.csv
+.gitignore
+data/prepared_data.pkl
