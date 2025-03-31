@@ -1,6 +1,4 @@
 data/data.csv
 .gitignore
 data/prepared_data.pkl
-outputs/
-scripts/__mnl.iter
-scripts/__mmnl.iter
+data/prepared_data.csv

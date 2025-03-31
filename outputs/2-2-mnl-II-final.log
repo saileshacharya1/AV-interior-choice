@@ -1,0 +1,209 @@
+2025-03-28 20:40:09,792 - INFO - Script execution started.
+2025-03-28 20:40:09,807 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:10,036 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:10,036 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final.iter
+2025-03-28 20:40:10,037 - INFO - Cannot read file __2-2-mnl-II-final.iter. Statement is ignored.
+2025-03-28 20:40:10,048 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:10,048 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:10,048 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:10,366 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:10,447 - INFO -     0      2.6e+03       0.13        1     0.89    +
+2025-03-28 20:40:10,522 - INFO -     1      2.5e+03       0.04       10     0.96   ++
+2025-03-28 20:40:10,594 - INFO -     2      2.5e+03        2.2       10     0.38    +
+2025-03-28 20:40:10,616 - INFO -     3      2.5e+03        2.2        5      -13    -
+2025-03-28 20:40:10,638 - INFO -     4      2.5e+03        2.2      2.5     -1.1    -
+2025-03-28 20:40:10,705 - INFO -     5      2.5e+03       0.91      2.5      0.8    +
+2025-03-28 20:40:10,774 - INFO -     6      2.5e+03      0.052       25        1   ++
+2025-03-28 20:40:10,840 - INFO -     7      2.5e+03       0.18  2.5e+02     0.99   ++
+2025-03-28 20:40:10,907 - INFO -     8      2.4e+03       0.12  2.5e+03        1   ++
+2025-03-28 20:40:10,972 - INFO -     9      2.4e+03       0.14  2.5e+04        1   ++
+2025-03-28 20:40:11,038 - INFO -    10      2.4e+03       0.14  2.5e+05     0.98   ++
+2025-03-28 20:40:11,104 - INFO -    11      2.4e+03       0.09  2.5e+06      1.1   ++
+2025-03-28 20:40:11,170 - INFO -    12      2.4e+03      0.089  2.5e+07     0.99   ++
+2025-03-28 20:40:11,235 - INFO -    13      2.4e+03      0.063  2.5e+08        1   ++
+2025-03-28 20:40:11,300 - INFO -    14      2.4e+03      0.062  2.5e+09        1   ++
+2025-03-28 20:40:11,365 - INFO -    15      2.4e+03      0.045    1e+10        1   ++
+2025-03-28 20:40:11,429 - INFO -    16      2.4e+03      0.045    1e+10        1   ++
+2025-03-28 20:40:11,494 - INFO -    17      2.4e+03      0.035    1e+10        1   ++
+2025-03-28 20:40:11,559 - INFO -    18      2.4e+03       0.03    1e+10        1   ++
+2025-03-28 20:40:11,624 - INFO -    19      2.4e+03      0.028    1e+10        1   ++
+2025-03-28 20:40:11,690 - INFO -    20      2.4e+03      0.027    1e+10        1   ++
+2025-03-28 20:40:11,754 - INFO -    21      2.4e+03       0.02    1e+10        1   ++
+2025-03-28 20:40:11,820 - INFO -    22      2.4e+03       0.02    1e+10        1   ++
+2025-03-28 20:40:11,885 - INFO -    23      2.4e+03      0.015    1e+10        1   ++
+2025-03-28 20:40:11,950 - INFO -    24      2.4e+03      0.015    1e+10        1   ++
+2025-03-28 20:40:12,015 - INFO -    25      2.4e+03      0.013    1e+10        1   ++
+2025-03-28 20:40:12,079 - INFO -    26      2.4e+03      0.012    1e+10        1   ++
+2025-03-28 20:40:12,143 - INFO -    27      2.4e+03       0.01    1e+10        1   ++
+2025-03-28 20:40:12,209 - INFO -    28      2.4e+03     0.0095    1e+10        1   ++
+2025-03-28 20:40:12,274 - INFO -    29      2.4e+03     0.0082    1e+10        1   ++
+2025-03-28 20:40:12,338 - INFO -    30      2.4e+03     0.0076    1e+10        1   ++
+2025-03-28 20:40:12,403 - INFO -    31      2.4e+03     0.0069    1e+10        1   ++
+2025-03-28 20:40:12,466 - INFO -    32      2.4e+03     0.0061    1e+10        1   ++
+2025-03-28 20:40:12,529 - INFO -    33      2.4e+03     0.0052    1e+10        1   ++
+2025-03-28 20:40:12,592 - INFO -    34      2.4e+03     0.0048    1e+10        1   ++
+2025-03-28 20:40:12,656 - INFO -    35      2.4e+03     0.0044    1e+10        1   ++
+2025-03-28 20:40:12,719 - INFO -    36      2.4e+03     0.0039    1e+10        1   ++
+2025-03-28 20:40:12,783 - INFO -    37      2.4e+03     0.0037    1e+10        1   ++
+2025-03-28 20:40:12,847 - INFO -    38      2.4e+03     0.0032    1e+10        1   ++
+2025-03-28 20:40:12,912 - INFO -    39      2.4e+03     0.0023    1e+10        1   ++
+2025-03-28 20:40:12,976 - INFO -    40      2.4e+03     0.0026    1e+10        1   ++
+2025-03-28 20:40:13,039 - INFO -    41      2.4e+03     0.0024    1e+10        1   ++
+2025-03-28 20:40:13,104 - INFO -    42      2.4e+03     0.0021    1e+10        1   ++
+2025-03-28 20:40:13,168 - INFO -    43      2.4e+03     0.0019    1e+10        1   ++
+2025-03-28 20:40:13,232 - INFO -    44      2.4e+03     0.0017    1e+10        1   ++
+2025-03-28 20:40:13,297 - INFO -    45      2.4e+03     0.0016    1e+10        1   ++
+2025-03-28 20:40:13,362 - INFO -    46      2.4e+03     0.0014    1e+10        1   ++
+2025-03-28 20:40:13,426 - INFO -    47      2.4e+03     0.0013    1e+10        1   ++
+2025-03-28 20:40:13,490 - INFO -    48      2.4e+03     0.0011    1e+10        1   ++
+2025-03-28 20:40:13,554 - INFO -    49      2.4e+03      0.001    1e+10        1   ++
+2025-03-28 20:40:13,618 - INFO -    50      2.4e+03     0.0014    1e+10        1   ++
+2025-03-28 20:40:13,682 - INFO -    51      2.4e+03    0.00082    1e+10        1   ++
+2025-03-28 20:40:13,746 - INFO -    52      2.4e+03    0.00077    1e+10        1   ++
+2025-03-28 20:40:13,810 - INFO -    53      2.4e+03    0.00065    1e+10        1   ++
+2025-03-28 20:40:13,875 - INFO -    54      2.4e+03    0.00069    1e+10        1   ++
+2025-03-28 20:40:13,940 - INFO -    55      2.4e+03    0.00052    1e+10        1   ++
+2025-03-28 20:40:14,004 - INFO -    56      2.4e+03    0.00061    1e+10        1   ++
+2025-03-28 20:40:14,067 - INFO -    57      2.4e+03    0.00045    1e+10        1   ++
+2025-03-28 20:40:14,131 - INFO -    58      2.4e+03    0.00054    1e+10        1   ++
+2025-03-28 20:40:14,195 - INFO -    59      2.4e+03    0.00097    1e+10        1   ++
+2025-03-28 20:40:14,259 - INFO -    60      2.4e+03     0.0091    1e+10        1   ++
+2025-03-28 20:40:14,324 - INFO -    61      2.4e+03     0.0012    1e+10        1   ++
+2025-03-28 20:40:14,387 - INFO -    62      2.4e+03    0.00034    1e+10        1   ++
+2025-03-28 20:40:14,427 - INFO -    63      2.4e+03    0.00011    1e+10        1   ++
+2025-03-28 20:40:14,713 - INFO - Results saved in file 2-2-mnl-II-final.html
+2025-03-28 20:40:14,720 - INFO - Results saved in file 2-2-mnl-II-final.pickle
+2025-03-28 20:40:14,755 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:14,755 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final.iter
+2025-03-28 20:40:14,756 - INFO - Parameter values restored from __2-2-mnl-II-final.iter
+2025-03-28 20:40:14,774 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:14,774 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:14,774 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:14,822 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:14,887 - INFO -     0      2.4e+03    0.00041       10        1   ++
+2025-03-28 20:40:14,952 - INFO -     1      2.4e+03    0.00014    1e+02        1   ++
+2025-03-28 20:40:15,016 - INFO -     2      2.4e+03    0.00036    1e+03        1   ++
+2025-03-28 20:40:15,057 - INFO -     3      2.4e+03    0.00011    1e+03        1   ++
+2025-03-28 20:40:15,340 - INFO - Results saved in file 2-2-mnl-II-final.html
+2025-03-28 20:40:15,346 - INFO - Results saved in file 2-2-mnl-II-final~00.pickle
+2025-03-28 20:40:15,353 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:15,512 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:15,512 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final_val_est_1.iter
+2025-03-28 20:40:15,513 - INFO - Cannot read file __2-2-mnl-II-final_val_est_1.iter. Statement is ignored.
+2025-03-28 20:40:15,534 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:15,534 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:15,534 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:15,804 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:15,882 - INFO -     0      1.9e+03      0.095       10     0.99   ++
+2025-03-28 20:40:15,953 - INFO -     1      1.9e+03    0.00016    1e+02        1   ++
+2025-03-28 20:40:16,000 - INFO -     2      1.9e+03     0.0001    1e+02        1   ++
+2025-03-28 20:40:16,279 - INFO - Results saved in file 2-2-mnl-II-final_val_est_1.html
+2025-03-28 20:40:16,285 - INFO - Results saved in file 2-2-mnl-II-final_val_est_1.pickle
+2025-03-28 20:40:16,292 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:16,406 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:16,569 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:16,570 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final_val_est_2.iter
+2025-03-28 20:40:16,570 - INFO - Cannot read file __2-2-mnl-II-final_val_est_2.iter. Statement is ignored.
+2025-03-28 20:40:16,593 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:16,593 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:16,593 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:16,893 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:16,974 - INFO -     0        2e+03     0.0059       10        1   ++
+2025-03-28 20:40:17,045 - INFO -     1        2e+03     0.0011    1e+02        1   ++
+2025-03-28 20:40:17,115 - INFO -     2        2e+03     0.0012    1e+03        1   ++
+2025-03-28 20:40:17,182 - INFO -     3        2e+03      0.014    1e+04        1   ++
+2025-03-28 20:40:17,249 - INFO -     4        2e+03     0.0047    1e+05        1   ++
+2025-03-28 20:40:17,313 - INFO -     5        2e+03    0.00075    1e+06        1   ++
+2025-03-28 20:40:17,377 - INFO -     6        2e+03     0.0011    1e+07        1   ++
+2025-03-28 20:40:17,442 - INFO -     7        2e+03     0.0011    1e+08        1   ++
+2025-03-28 20:40:17,505 - INFO -     8        2e+03    0.00094    1e+09        1   ++
+2025-03-28 20:40:17,569 - INFO -     9        2e+03    0.00077    1e+10        1   ++
+2025-03-28 20:40:17,633 - INFO -    10        2e+03    0.00076    1e+10        1   ++
+2025-03-28 20:40:17,696 - INFO -    11        2e+03    0.00048    1e+10        1   ++
+2025-03-28 20:40:17,760 - INFO -    12        2e+03      0.015    1e+10        1   ++
+2025-03-28 20:40:17,822 - INFO -    13        2e+03    0.00024    1e+10        1   ++
+2025-03-28 20:40:17,887 - INFO -    14        2e+03    0.00048    1e+10        1   ++
+2025-03-28 20:40:17,949 - INFO -    15        2e+03    0.00019    1e+10        1   ++
+2025-03-28 20:40:18,012 - INFO -    16        2e+03    0.00042    1e+10        1   ++
+2025-03-28 20:40:18,075 - INFO -    17        2e+03    0.00017    1e+10        1   ++
+2025-03-28 20:40:18,137 - INFO -    18        2e+03    0.00036    1e+10        1   ++
+2025-03-28 20:40:18,200 - INFO -    19        2e+03    0.00017    1e+10        1   ++
+2025-03-28 20:40:18,263 - INFO -    20        2e+03    0.00031    1e+10        1   ++
+2025-03-28 20:40:18,302 - INFO -    21        2e+03    8.3e-05    1e+10        1   ++
+2025-03-28 20:40:18,579 - INFO - Results saved in file 2-2-mnl-II-final_val_est_2.html
+2025-03-28 20:40:18,586 - INFO - Results saved in file 2-2-mnl-II-final_val_est_2.pickle
+2025-03-28 20:40:18,625 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:18,739 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:18,901 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:18,902 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final_val_est_3.iter
+2025-03-28 20:40:18,903 - INFO - Cannot read file __2-2-mnl-II-final_val_est_3.iter. Statement is ignored.
+2025-03-28 20:40:18,926 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:18,927 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:18,927 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:19,208 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:19,287 - INFO -     0      1.9e+03      0.031       10        1   ++
+2025-03-28 20:40:19,360 - INFO -     1      1.9e+03     0.0014    1e+02        1   ++
+2025-03-28 20:40:19,429 - INFO -     2      1.9e+03     0.0021    1e+03        1   ++
+2025-03-28 20:40:19,498 - INFO -     3      1.9e+03     0.0025    1e+04        1   ++
+2025-03-28 20:40:19,564 - INFO -     4      1.9e+03    0.00053    1e+05        1   ++
+2025-03-28 20:40:19,630 - INFO -     5      1.9e+03    0.00022    1e+06        1   ++
+2025-03-28 20:40:19,695 - INFO -     6      1.9e+03     0.0015    1e+07        1   ++
+2025-03-28 20:40:19,761 - INFO -     7      1.9e+03     0.0006    1e+08        1   ++
+2025-03-28 20:40:19,804 - INFO -     8      1.9e+03    9.4e-05    1e+08        1   ++
+2025-03-28 20:40:20,083 - INFO - Results saved in file 2-2-mnl-II-final_val_est_3.html
+2025-03-28 20:40:20,089 - INFO - Results saved in file 2-2-mnl-II-final_val_est_3.pickle
+2025-03-28 20:40:20,096 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:20,214 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:20,379 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:20,380 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final_val_est_4.iter
+2025-03-28 20:40:20,381 - INFO - Cannot read file __2-2-mnl-II-final_val_est_4.iter. Statement is ignored.
+2025-03-28 20:40:20,404 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:20,404 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:20,404 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:20,701 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:20,782 - INFO -     0      1.9e+03      0.016       10        1   ++
+2025-03-28 20:40:20,854 - INFO -     1      1.9e+03     0.0017    1e+02        1   ++
+2025-03-28 20:40:20,923 - INFO -     2      1.9e+03     0.0004    1e+03        1   ++
+2025-03-28 20:40:20,990 - INFO -     3      1.9e+03     0.0002    1e+04        1   ++
+2025-03-28 20:40:21,058 - INFO -     4      1.9e+03    0.00041    1e+05        1   ++
+2025-03-28 20:40:21,123 - INFO -     5      1.9e+03    0.00018    1e+06        1   ++
+2025-03-28 20:40:21,189 - INFO -     6      1.9e+03    0.00029    1e+07        1   ++
+2025-03-28 20:40:21,253 - INFO -     7      1.9e+03    0.00016    1e+08        1   ++
+2025-03-28 20:40:21,318 - INFO -     8      1.9e+03    0.00027    1e+09        1   ++
+2025-03-28 20:40:21,359 - INFO -     9      1.9e+03    0.00011    1e+09        1   ++
+2025-03-28 20:40:21,637 - INFO - Results saved in file 2-2-mnl-II-final_val_est_4.html
+2025-03-28 20:40:21,644 - INFO - Results saved in file 2-2-mnl-II-final_val_est_4.pickle
+2025-03-28 20:40:21,650 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:21,768 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:21,931 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:21,931 - INFO - *** Initial values of the parameters are obtained from the file __2-2-mnl-II-final_val_est_5.iter
+2025-03-28 20:40:21,933 - INFO - Cannot read file __2-2-mnl-II-final_val_est_5.iter. Statement is ignored.
+2025-03-28 20:40:21,955 - INFO - As the model is not too complex, we activate the calculation of second derivatives. If you want to change it, change the name of the algorithm in the TOML file from "automatic" to "simple_bounds"
+2025-03-28 20:40:21,955 - INFO - Optimization algorithm: hybrid Newton/BFGS with simple bounds [simple_bounds]
+2025-03-28 20:40:21,955 - INFO - ** Optimization: Newton with trust region for simple bounds
+2025-03-28 20:40:22,250 - INFO - Iter.     Function    Relgrad   Radius      Rho     
+2025-03-28 20:40:22,328 - INFO -     0      1.9e+03       0.02       10     0.99   ++
+2025-03-28 20:40:22,398 - INFO -     1      1.9e+03      0.002    1e+02        1   ++
+2025-03-28 20:40:22,467 - INFO -     2      1.9e+03     0.0044    1e+03     0.99   ++
+2025-03-28 20:40:22,534 - INFO -     3      1.9e+03     0.0013    1e+04        1   ++
+2025-03-28 20:40:22,597 - INFO -     4      1.9e+03    0.00095    1e+05     0.99   ++
+2025-03-28 20:40:22,664 - INFO -     5      1.9e+03    0.00097    1e+06        1   ++
+2025-03-28 20:40:22,730 - INFO -     6      1.9e+03    0.00062    1e+07        1   ++
+2025-03-28 20:40:22,796 - INFO -     7      1.9e+03    0.00035    1e+08        1   ++
+2025-03-28 20:40:22,860 - INFO -     8      1.9e+03    0.00038    1e+09        1   ++
+2025-03-28 20:40:22,925 - INFO -     9      1.9e+03     0.0002    1e+10        1   ++
+2025-03-28 20:40:22,988 - INFO -    10      1.9e+03    0.00023    1e+10        1   ++
+2025-03-28 20:40:23,051 - INFO -    11      1.9e+03     0.0075    1e+10        1   ++
+2025-03-28 20:40:23,113 - INFO -    12      1.9e+03      0.096    1e+10        1   ++
+2025-03-28 20:40:23,177 - INFO -    13      1.9e+03    0.00014    1e+10        1   ++
+2025-03-28 20:40:23,240 - INFO -    14      1.9e+03     0.0013    1e+10     0.98   ++
+2025-03-28 20:40:23,279 - INFO -    15      1.9e+03     0.0001    1e+10        1   ++
+2025-03-28 20:40:23,560 - INFO - Results saved in file 2-2-mnl-II-final_val_est_5.html
+2025-03-28 20:40:23,567 - INFO - Results saved in file 2-2-mnl-II-final_val_est_5.pickle
+2025-03-28 20:40:23,573 - INFO - Biogeme parameters read from biogeme.toml.
+2025-03-28 20:40:23,689 - INFO - Simulation results saved in file 2-2-mnl-II-final_validation.pickle
+2025-03-28 20:40:23,699 - INFO - Log likelihood for 557 validation data: -494.4601638930999
+2025-03-28 20:40:23,699 - INFO - Log likelihood for 557 validation data: -486.6430300154899
+2025-03-28 20:40:23,700 - INFO - Log likelihood for 557 validation data: -511.43280840400234
+2025-03-28 20:40:23,701 - INFO - Log likelihood for 557 validation data: -490.1335229162281
+2025-03-28 20:40:23,702 - INFO - Log likelihood for 556 validation data: -495.8129879478643
