@@ -22,7 +22,6 @@ This study investigates how **vehicle automation** and **in-vehicle environments
 
 - AV-WL interiors **enhance the benefit** of in-vehicle entertainment activities
 - AV adoption may **increase demand for larger, more comfortable vehicles**
-- **In-vehicle productivity and leisure potential** are critical for understanding the mobility impacts of AVs
 
 ---
 
